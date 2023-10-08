@@ -1,7 +1,7 @@
 {
   "tasks": {
-    "start": "deno run -A server.tsx",
-    "dev": "deno run -A --watch=routes/,htmx/,utils/,constants/,static/,server.tsx server.tsx"
+    "start": "deno run -A server.ts",
+    "dev": "deno run -A --watch=routes/,htmx/,utils/,constants/,static/,server.tsx server.ts"
   },
   "imports": {
     "$/": "./",
@@ -9,7 +9,7 @@
     "hono/": "https://deno.land/x/hono@v3.7.5/",
     "hono/jsx/jsx-runtime": "https://deno.land/x/hono@v3.7.5/jsx/jsx-runtime.ts",
     "hono/jsx/jsx-dev-runtime": "https://deno.land/x/hono@v3.7.5/jsx/jsx-dev-runtime.ts",
-    "cf_ai": "https://deno.land/x/cf_ai@1.0.0/mod.ts"
+    "cf_ai": "https://deno.land/x/cf_ai@1.0.1/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
