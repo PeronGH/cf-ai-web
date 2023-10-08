@@ -12,7 +12,7 @@ app.post("/run/*", async (ctx) => {
   try {
     return ctx.json(await run(model, ctx.req.raw.body));
   } catch (error) {
-    return ctx.json(error?.cause ?? { error });
+    return ctx.json(error?.cause ?? error?.message ?? error, 500);
   }
 });
 
