@@ -5,14 +5,11 @@
   },
   "imports": {
     "$/": "./",
-    "std/": "https://deno.land/std@0.201.0/",
-    "hono": "https://deno.land/x/hono@v3.7.5/mod.ts",
+    "std/": "https://deno.land/std@0.203.0/",
     "hono/": "https://deno.land/x/hono@v3.7.5/",
-    "hono/validator": "https://deno.land/x/hono@v3.7.5/validator/index.ts",
     "hono/jsx/jsx-runtime": "https://deno.land/x/hono@v3.7.5/jsx/jsx-runtime.ts",
     "hono/jsx/jsx-dev-runtime": "https://deno.land/x/hono@v3.7.5/jsx/jsx-dev-runtime.ts",
-    "zod": "https://deno.land/x/zod@v3.22.2/mod.ts",
-    "@hono/zod-validator": "https://esm.sh/@hono/zod-validator@0.1.9?external=hono,zod"
+    "cf_ai": "https://deno.land/x/cf_ai@1.0.0/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
